@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
     s.swift_version = "5.1"
     s.ios.deployment_target  = '13.0'
     s.ios.framework  = 'UIKit'
-    s.dependency 'Onfido', '~> 22.0.0'
+    s.dependency 'Onfido', '~> 22.1.0'
     s.module_name = 'ivssdk'
 end
